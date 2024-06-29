@@ -39,4 +39,4 @@ Serialization enables:
    ```bash
    node readCustomFile.js
 
-4. You will be prompted to enter the correct offset for decryption
+4. **You will be prompted to enter the correct offset for decryption**
