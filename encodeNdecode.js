@@ -1,5 +1,4 @@
  function customEncode(data, offset) {
-    console.log(`${offset}`);
   return data
     .split("")
     .map((char) => char.charCodeAt(0) + offset)
@@ -7,7 +6,6 @@
 }
 
  function customDecode(data, offset) {
-    console.log(offset);
   return data
     .split(" ")
     .map((code) => String.fromCharCode(code - `${offset}`))
