@@ -2,10 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const readline = require("readline");
 const { customDecode } = require("./encodeNdecode");
+
 // Define the file name and extension
 const fileName = "myCustomFile.myext";
-
-// let offset = 123;
 
 // Set up readline to read user input
 const rl = readline.createInterface({

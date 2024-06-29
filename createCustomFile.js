@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const dotenv = require('dotenv');
-// const { customEncode } = require('./encodeNdecode');
+const { customEncode } = require('./encodeNdecode');
 
 dotenv.config()
 
@@ -11,15 +11,6 @@ const fileName = 'myCustomFile.myext';
 // Define the data to write
 const data = 'This is some secret data that should not be readable by regular apps.';
 
-function customEncode(data, offset) {
-  console.log(`${offset}`);
-return data
-  .split("")
-  .map((char) => char.charCodeAt(0) + offset)
-  .join(" ");
-}
-
-// Encode the data (using Base64 encoding in this example)
 const offset = 123
 const encodedData =customEncode(data, offset);
 
