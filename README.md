@@ -30,3 +30,13 @@ Serialization enables:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/preciousaffiah/Serialization.git
+
+2. **How to create a custom file**:
+   ```bash
+   node createCustomFile.js
+   
+3. **How to read a custom file**:
+   ```bash
+   node readCustomFile.js
+
+4. You will be prompted to enter the correct offset for decryption
