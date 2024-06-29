@@ -1,4 +1,4 @@
-# Custom Serialization Project
+# Javascript Custom Serialization
 
 ## Overview
 This project implements custom serialization in Javascript, inspired by a [TikTok video by Uma Abu](https://vm.tiktok.com/ZMrrGjdGv). It allows data to be stored with a unique file extension and encrypted, ensuring data security and integrity.
